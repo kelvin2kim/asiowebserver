@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kelvin/Documents/asio/example/cpp11/http/server2
+CMAKE_SOURCE_DIR = /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kelvin/Documents/asio/example/cpp11/http/server2/server2exec
+CMAKE_BINARY_DIR = /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/server2exec
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kelvin/Documents/asio/example/cpp11/http/server2/server2exec/CMakeFiles /Users/kelvin/Documents/asio/example/cpp11/http/server2/server2exec//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/server2exec/CMakeFiles /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/server2exec//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kelvin/Documents/asio/example/cpp11/http/server2/server2exec/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/server2exec/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

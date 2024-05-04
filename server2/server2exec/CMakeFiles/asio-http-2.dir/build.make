@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kelvin/Documents/asio/example/cpp11/http/server2
+CMAKE_SOURCE_DIR = /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kelvin/Documents/asio/example/cpp11/http/server2/server2exec
+CMAKE_BINARY_DIR = /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/server2exec
 
 # Include any dependencies generated for this target.
 include CMakeFiles/asio-http-2.dir/depend.make
@@ -70,116 +70,116 @@ include CMakeFiles/asio-http-2.dir/progress.make
 include CMakeFiles/asio-http-2.dir/flags.make
 
 CMakeFiles/asio-http-2.dir/main.cpp.o: CMakeFiles/asio-http-2.dir/flags.make
-CMakeFiles/asio-http-2.dir/main.cpp.o: /Users/kelvin/Documents/asio/example/cpp11/http/server2/main.cpp
+CMakeFiles/asio-http-2.dir/main.cpp.o: /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/main.cpp
 CMakeFiles/asio-http-2.dir/main.cpp.o: CMakeFiles/asio-http-2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kelvin/Documents/asio/example/cpp11/http/server2/server2exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/asio-http-2.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/asio-http-2.dir/main.cpp.o -MF CMakeFiles/asio-http-2.dir/main.cpp.o.d -o CMakeFiles/asio-http-2.dir/main.cpp.o -c /Users/kelvin/Documents/asio/example/cpp11/http/server2/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/server2exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/asio-http-2.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/asio-http-2.dir/main.cpp.o -MF CMakeFiles/asio-http-2.dir/main.cpp.o.d -o CMakeFiles/asio-http-2.dir/main.cpp.o -c /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/main.cpp
 
 CMakeFiles/asio-http-2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/asio-http-2.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelvin/Documents/asio/example/cpp11/http/server2/main.cpp > CMakeFiles/asio-http-2.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/main.cpp > CMakeFiles/asio-http-2.dir/main.cpp.i
 
 CMakeFiles/asio-http-2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/asio-http-2.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelvin/Documents/asio/example/cpp11/http/server2/main.cpp -o CMakeFiles/asio-http-2.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/main.cpp -o CMakeFiles/asio-http-2.dir/main.cpp.s
 
 CMakeFiles/asio-http-2.dir/server.cpp.o: CMakeFiles/asio-http-2.dir/flags.make
-CMakeFiles/asio-http-2.dir/server.cpp.o: /Users/kelvin/Documents/asio/example/cpp11/http/server2/server.cpp
+CMakeFiles/asio-http-2.dir/server.cpp.o: /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/server.cpp
 CMakeFiles/asio-http-2.dir/server.cpp.o: CMakeFiles/asio-http-2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kelvin/Documents/asio/example/cpp11/http/server2/server2exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/asio-http-2.dir/server.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/asio-http-2.dir/server.cpp.o -MF CMakeFiles/asio-http-2.dir/server.cpp.o.d -o CMakeFiles/asio-http-2.dir/server.cpp.o -c /Users/kelvin/Documents/asio/example/cpp11/http/server2/server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/server2exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/asio-http-2.dir/server.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/asio-http-2.dir/server.cpp.o -MF CMakeFiles/asio-http-2.dir/server.cpp.o.d -o CMakeFiles/asio-http-2.dir/server.cpp.o -c /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/server.cpp
 
 CMakeFiles/asio-http-2.dir/server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/asio-http-2.dir/server.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelvin/Documents/asio/example/cpp11/http/server2/server.cpp > CMakeFiles/asio-http-2.dir/server.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/server.cpp > CMakeFiles/asio-http-2.dir/server.cpp.i
 
 CMakeFiles/asio-http-2.dir/server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/asio-http-2.dir/server.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelvin/Documents/asio/example/cpp11/http/server2/server.cpp -o CMakeFiles/asio-http-2.dir/server.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/server.cpp -o CMakeFiles/asio-http-2.dir/server.cpp.s
 
 CMakeFiles/asio-http-2.dir/connection.cpp.o: CMakeFiles/asio-http-2.dir/flags.make
-CMakeFiles/asio-http-2.dir/connection.cpp.o: /Users/kelvin/Documents/asio/example/cpp11/http/server2/connection.cpp
+CMakeFiles/asio-http-2.dir/connection.cpp.o: /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/connection.cpp
 CMakeFiles/asio-http-2.dir/connection.cpp.o: CMakeFiles/asio-http-2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kelvin/Documents/asio/example/cpp11/http/server2/server2exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/asio-http-2.dir/connection.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/asio-http-2.dir/connection.cpp.o -MF CMakeFiles/asio-http-2.dir/connection.cpp.o.d -o CMakeFiles/asio-http-2.dir/connection.cpp.o -c /Users/kelvin/Documents/asio/example/cpp11/http/server2/connection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/server2exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/asio-http-2.dir/connection.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/asio-http-2.dir/connection.cpp.o -MF CMakeFiles/asio-http-2.dir/connection.cpp.o.d -o CMakeFiles/asio-http-2.dir/connection.cpp.o -c /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/connection.cpp
 
 CMakeFiles/asio-http-2.dir/connection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/asio-http-2.dir/connection.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelvin/Documents/asio/example/cpp11/http/server2/connection.cpp > CMakeFiles/asio-http-2.dir/connection.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/connection.cpp > CMakeFiles/asio-http-2.dir/connection.cpp.i
 
 CMakeFiles/asio-http-2.dir/connection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/asio-http-2.dir/connection.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelvin/Documents/asio/example/cpp11/http/server2/connection.cpp -o CMakeFiles/asio-http-2.dir/connection.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/connection.cpp -o CMakeFiles/asio-http-2.dir/connection.cpp.s
 
 CMakeFiles/asio-http-2.dir/request_handler.cpp.o: CMakeFiles/asio-http-2.dir/flags.make
-CMakeFiles/asio-http-2.dir/request_handler.cpp.o: /Users/kelvin/Documents/asio/example/cpp11/http/server2/request_handler.cpp
+CMakeFiles/asio-http-2.dir/request_handler.cpp.o: /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/request_handler.cpp
 CMakeFiles/asio-http-2.dir/request_handler.cpp.o: CMakeFiles/asio-http-2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kelvin/Documents/asio/example/cpp11/http/server2/server2exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/asio-http-2.dir/request_handler.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/asio-http-2.dir/request_handler.cpp.o -MF CMakeFiles/asio-http-2.dir/request_handler.cpp.o.d -o CMakeFiles/asio-http-2.dir/request_handler.cpp.o -c /Users/kelvin/Documents/asio/example/cpp11/http/server2/request_handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/server2exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/asio-http-2.dir/request_handler.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/asio-http-2.dir/request_handler.cpp.o -MF CMakeFiles/asio-http-2.dir/request_handler.cpp.o.d -o CMakeFiles/asio-http-2.dir/request_handler.cpp.o -c /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/request_handler.cpp
 
 CMakeFiles/asio-http-2.dir/request_handler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/asio-http-2.dir/request_handler.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelvin/Documents/asio/example/cpp11/http/server2/request_handler.cpp > CMakeFiles/asio-http-2.dir/request_handler.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/request_handler.cpp > CMakeFiles/asio-http-2.dir/request_handler.cpp.i
 
 CMakeFiles/asio-http-2.dir/request_handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/asio-http-2.dir/request_handler.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelvin/Documents/asio/example/cpp11/http/server2/request_handler.cpp -o CMakeFiles/asio-http-2.dir/request_handler.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/request_handler.cpp -o CMakeFiles/asio-http-2.dir/request_handler.cpp.s
 
 CMakeFiles/asio-http-2.dir/request_parser.cpp.o: CMakeFiles/asio-http-2.dir/flags.make
-CMakeFiles/asio-http-2.dir/request_parser.cpp.o: /Users/kelvin/Documents/asio/example/cpp11/http/server2/request_parser.cpp
+CMakeFiles/asio-http-2.dir/request_parser.cpp.o: /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/request_parser.cpp
 CMakeFiles/asio-http-2.dir/request_parser.cpp.o: CMakeFiles/asio-http-2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kelvin/Documents/asio/example/cpp11/http/server2/server2exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/asio-http-2.dir/request_parser.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/asio-http-2.dir/request_parser.cpp.o -MF CMakeFiles/asio-http-2.dir/request_parser.cpp.o.d -o CMakeFiles/asio-http-2.dir/request_parser.cpp.o -c /Users/kelvin/Documents/asio/example/cpp11/http/server2/request_parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/server2exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/asio-http-2.dir/request_parser.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/asio-http-2.dir/request_parser.cpp.o -MF CMakeFiles/asio-http-2.dir/request_parser.cpp.o.d -o CMakeFiles/asio-http-2.dir/request_parser.cpp.o -c /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/request_parser.cpp
 
 CMakeFiles/asio-http-2.dir/request_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/asio-http-2.dir/request_parser.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelvin/Documents/asio/example/cpp11/http/server2/request_parser.cpp > CMakeFiles/asio-http-2.dir/request_parser.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/request_parser.cpp > CMakeFiles/asio-http-2.dir/request_parser.cpp.i
 
 CMakeFiles/asio-http-2.dir/request_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/asio-http-2.dir/request_parser.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelvin/Documents/asio/example/cpp11/http/server2/request_parser.cpp -o CMakeFiles/asio-http-2.dir/request_parser.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/request_parser.cpp -o CMakeFiles/asio-http-2.dir/request_parser.cpp.s
 
 CMakeFiles/asio-http-2.dir/reply.cpp.o: CMakeFiles/asio-http-2.dir/flags.make
-CMakeFiles/asio-http-2.dir/reply.cpp.o: /Users/kelvin/Documents/asio/example/cpp11/http/server2/reply.cpp
+CMakeFiles/asio-http-2.dir/reply.cpp.o: /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/reply.cpp
 CMakeFiles/asio-http-2.dir/reply.cpp.o: CMakeFiles/asio-http-2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kelvin/Documents/asio/example/cpp11/http/server2/server2exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/asio-http-2.dir/reply.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/asio-http-2.dir/reply.cpp.o -MF CMakeFiles/asio-http-2.dir/reply.cpp.o.d -o CMakeFiles/asio-http-2.dir/reply.cpp.o -c /Users/kelvin/Documents/asio/example/cpp11/http/server2/reply.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/server2exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/asio-http-2.dir/reply.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/asio-http-2.dir/reply.cpp.o -MF CMakeFiles/asio-http-2.dir/reply.cpp.o.d -o CMakeFiles/asio-http-2.dir/reply.cpp.o -c /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/reply.cpp
 
 CMakeFiles/asio-http-2.dir/reply.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/asio-http-2.dir/reply.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelvin/Documents/asio/example/cpp11/http/server2/reply.cpp > CMakeFiles/asio-http-2.dir/reply.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/reply.cpp > CMakeFiles/asio-http-2.dir/reply.cpp.i
 
 CMakeFiles/asio-http-2.dir/reply.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/asio-http-2.dir/reply.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelvin/Documents/asio/example/cpp11/http/server2/reply.cpp -o CMakeFiles/asio-http-2.dir/reply.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/reply.cpp -o CMakeFiles/asio-http-2.dir/reply.cpp.s
 
 CMakeFiles/asio-http-2.dir/mime_types.cpp.o: CMakeFiles/asio-http-2.dir/flags.make
-CMakeFiles/asio-http-2.dir/mime_types.cpp.o: /Users/kelvin/Documents/asio/example/cpp11/http/server2/mime_types.cpp
+CMakeFiles/asio-http-2.dir/mime_types.cpp.o: /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/mime_types.cpp
 CMakeFiles/asio-http-2.dir/mime_types.cpp.o: CMakeFiles/asio-http-2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kelvin/Documents/asio/example/cpp11/http/server2/server2exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/asio-http-2.dir/mime_types.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/asio-http-2.dir/mime_types.cpp.o -MF CMakeFiles/asio-http-2.dir/mime_types.cpp.o.d -o CMakeFiles/asio-http-2.dir/mime_types.cpp.o -c /Users/kelvin/Documents/asio/example/cpp11/http/server2/mime_types.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/server2exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/asio-http-2.dir/mime_types.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/asio-http-2.dir/mime_types.cpp.o -MF CMakeFiles/asio-http-2.dir/mime_types.cpp.o.d -o CMakeFiles/asio-http-2.dir/mime_types.cpp.o -c /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/mime_types.cpp
 
 CMakeFiles/asio-http-2.dir/mime_types.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/asio-http-2.dir/mime_types.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelvin/Documents/asio/example/cpp11/http/server2/mime_types.cpp > CMakeFiles/asio-http-2.dir/mime_types.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/mime_types.cpp > CMakeFiles/asio-http-2.dir/mime_types.cpp.i
 
 CMakeFiles/asio-http-2.dir/mime_types.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/asio-http-2.dir/mime_types.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelvin/Documents/asio/example/cpp11/http/server2/mime_types.cpp -o CMakeFiles/asio-http-2.dir/mime_types.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/mime_types.cpp -o CMakeFiles/asio-http-2.dir/mime_types.cpp.s
 
 CMakeFiles/asio-http-2.dir/io_context_pool.cpp.o: CMakeFiles/asio-http-2.dir/flags.make
-CMakeFiles/asio-http-2.dir/io_context_pool.cpp.o: /Users/kelvin/Documents/asio/example/cpp11/http/server2/io_context_pool.cpp
+CMakeFiles/asio-http-2.dir/io_context_pool.cpp.o: /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/io_context_pool.cpp
 CMakeFiles/asio-http-2.dir/io_context_pool.cpp.o: CMakeFiles/asio-http-2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kelvin/Documents/asio/example/cpp11/http/server2/server2exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/asio-http-2.dir/io_context_pool.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/asio-http-2.dir/io_context_pool.cpp.o -MF CMakeFiles/asio-http-2.dir/io_context_pool.cpp.o.d -o CMakeFiles/asio-http-2.dir/io_context_pool.cpp.o -c /Users/kelvin/Documents/asio/example/cpp11/http/server2/io_context_pool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/server2exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/asio-http-2.dir/io_context_pool.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/asio-http-2.dir/io_context_pool.cpp.o -MF CMakeFiles/asio-http-2.dir/io_context_pool.cpp.o.d -o CMakeFiles/asio-http-2.dir/io_context_pool.cpp.o -c /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/io_context_pool.cpp
 
 CMakeFiles/asio-http-2.dir/io_context_pool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/asio-http-2.dir/io_context_pool.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelvin/Documents/asio/example/cpp11/http/server2/io_context_pool.cpp > CMakeFiles/asio-http-2.dir/io_context_pool.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/io_context_pool.cpp > CMakeFiles/asio-http-2.dir/io_context_pool.cpp.i
 
 CMakeFiles/asio-http-2.dir/io_context_pool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/asio-http-2.dir/io_context_pool.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelvin/Documents/asio/example/cpp11/http/server2/io_context_pool.cpp -o CMakeFiles/asio-http-2.dir/io_context_pool.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/io_context_pool.cpp -o CMakeFiles/asio-http-2.dir/io_context_pool.cpp.s
 
 # Object files for target asio-http-2
 asio__http__2_OBJECTS = \
@@ -208,7 +208,7 @@ asio-http-2: /opt/homebrew/lib/libboost_thread-mt.dylib
 asio-http-2: /opt/homebrew/lib/libboost_json-mt.dylib
 asio-http-2: /opt/homebrew/lib/libboost_container-mt.dylib
 asio-http-2: CMakeFiles/asio-http-2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kelvin/Documents/asio/example/cpp11/http/server2/server2exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable asio-http-2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/server2exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable asio-http-2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/asio-http-2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -220,6 +220,6 @@ CMakeFiles/asio-http-2.dir/clean:
 .PHONY : CMakeFiles/asio-http-2.dir/clean
 
 CMakeFiles/asio-http-2.dir/depend:
-	cd /Users/kelvin/Documents/asio/example/cpp11/http/server2/server2exec && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kelvin/Documents/asio/example/cpp11/http/server2 /Users/kelvin/Documents/asio/example/cpp11/http/server2 /Users/kelvin/Documents/asio/example/cpp11/http/server2/server2exec /Users/kelvin/Documents/asio/example/cpp11/http/server2/server2exec /Users/kelvin/Documents/asio/example/cpp11/http/server2/server2exec/CMakeFiles/asio-http-2.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/server2exec && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2 /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2 /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/server2exec /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/server2exec /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server2/server2exec/CMakeFiles/asio-http-2.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/asio-http-2.dir/depend
 

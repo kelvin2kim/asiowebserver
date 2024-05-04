@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/kelvin/Documents/asio/example/cpp11/http/server-1/connection.cpp" "CMakeFiles/asio-http-1.dir/connection.cpp.o" "gcc" "CMakeFiles/asio-http-1.dir/connection.cpp.o.d"
-  "/Users/kelvin/Documents/asio/example/cpp11/http/server-1/connection_manager.cpp" "CMakeFiles/asio-http-1.dir/connection_manager.cpp.o" "gcc" "CMakeFiles/asio-http-1.dir/connection_manager.cpp.o.d"
-  "/Users/kelvin/Documents/asio/example/cpp11/http/server-1/main.cpp" "CMakeFiles/asio-http-1.dir/main.cpp.o" "gcc" "CMakeFiles/asio-http-1.dir/main.cpp.o.d"
-  "/Users/kelvin/Documents/asio/example/cpp11/http/server-1/mime_types.cpp" "CMakeFiles/asio-http-1.dir/mime_types.cpp.o" "gcc" "CMakeFiles/asio-http-1.dir/mime_types.cpp.o.d"
-  "/Users/kelvin/Documents/asio/example/cpp11/http/server-1/reply.cpp" "CMakeFiles/asio-http-1.dir/reply.cpp.o" "gcc" "CMakeFiles/asio-http-1.dir/reply.cpp.o.d"
-  "/Users/kelvin/Documents/asio/example/cpp11/http/server-1/request_handler.cpp" "CMakeFiles/asio-http-1.dir/request_handler.cpp.o" "gcc" "CMakeFiles/asio-http-1.dir/request_handler.cpp.o.d"
-  "/Users/kelvin/Documents/asio/example/cpp11/http/server-1/request_parser.cpp" "CMakeFiles/asio-http-1.dir/request_parser.cpp.o" "gcc" "CMakeFiles/asio-http-1.dir/request_parser.cpp.o.d"
-  "/Users/kelvin/Documents/asio/example/cpp11/http/server-1/server.cpp" "CMakeFiles/asio-http-1.dir/server.cpp.o" "gcc" "CMakeFiles/asio-http-1.dir/server.cpp.o.d"
+  "/Users/istec/Lecture_sw/Projects/asio/asio-webserver/server-1/connection.cpp" "CMakeFiles/asio-http-1.dir/connection.cpp.o" "gcc" "CMakeFiles/asio-http-1.dir/connection.cpp.o.d"
+  "/Users/istec/Lecture_sw/Projects/asio/asio-webserver/server-1/connection_manager.cpp" "CMakeFiles/asio-http-1.dir/connection_manager.cpp.o" "gcc" "CMakeFiles/asio-http-1.dir/connection_manager.cpp.o.d"
+  "/Users/istec/Lecture_sw/Projects/asio/asio-webserver/server-1/main.cpp" "CMakeFiles/asio-http-1.dir/main.cpp.o" "gcc" "CMakeFiles/asio-http-1.dir/main.cpp.o.d"
+  "/Users/istec/Lecture_sw/Projects/asio/asio-webserver/server-1/mime_types.cpp" "CMakeFiles/asio-http-1.dir/mime_types.cpp.o" "gcc" "CMakeFiles/asio-http-1.dir/mime_types.cpp.o.d"
+  "/Users/istec/Lecture_sw/Projects/asio/asio-webserver/server-1/reply.cpp" "CMakeFiles/asio-http-1.dir/reply.cpp.o" "gcc" "CMakeFiles/asio-http-1.dir/reply.cpp.o.d"
+  "/Users/istec/Lecture_sw/Projects/asio/asio-webserver/server-1/request_handler.cpp" "CMakeFiles/asio-http-1.dir/request_handler.cpp.o" "gcc" "CMakeFiles/asio-http-1.dir/request_handler.cpp.o.d"
+  "/Users/istec/Lecture_sw/Projects/asio/asio-webserver/server-1/request_parser.cpp" "CMakeFiles/asio-http-1.dir/request_parser.cpp.o" "gcc" "CMakeFiles/asio-http-1.dir/request_parser.cpp.o.d"
+  "/Users/istec/Lecture_sw/Projects/asio/asio-webserver/server-1/server.cpp" "CMakeFiles/asio-http-1.dir/server.cpp.o" "gcc" "CMakeFiles/asio-http-1.dir/server.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

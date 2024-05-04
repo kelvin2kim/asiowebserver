@@ -7,7 +7,8 @@ set(CMAKE_CXX_STANDARD 17)
 #find_package(Boost)
 find_package(Boost REQUIRED COMPONENTS thread json)
 
-include_directories(./async-mqtt5/include)
+# include_directories(./async-mqtt5/include)
+include_directories(../include)
 
 if(Boost_FOUND)
     # include 패스 설정
