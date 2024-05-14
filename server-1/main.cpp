@@ -18,6 +18,15 @@
 
 #include <async_mqtt5.hpp>
 
+#include <mongocxx/client.hpp>
+#include <bsoncxx/builder/stream/document.hpp>
+#include <bsoncxx/json.hpp>
+#include <mongocxx/uri.hpp>
+#include <mongocxx/instance.hpp>
+#include <algorithm>
+#include <iostream>
+#include <vector>
+
 using client_type = async_mqtt5::mqtt_client<boost::asio::ip::tcp::socket>;
 client_type* pmqtt;
 
@@ -54,6 +63,27 @@ int main(int argc, char* argv[])
     });
 
     mqtt_thread.detach(); 
+
+    mongocxx::v_noabi::instance inst{};
+    mongocxx::uri uri("mongodb://127.0.0.1:27017");
+    mongocxx::client client(uri);
+
+
+    mongocxx::database db = client["admin"];
+    mongocxx::collection coll = db["test"];
+
+    if(!client){
+        std::cout<<"db is not started";
+      }
+    else{
+      std::cout<<"db is  started";
+    }
+
+    bsoncxx::builder::stream::document document{};
+    document << "Hello" << "world";
+
+    coll.insert_one(document.view());
+
 
     // Run the server until stopped.
     s.run();

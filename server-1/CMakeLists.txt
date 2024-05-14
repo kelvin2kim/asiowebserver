@@ -3,9 +3,13 @@ project(server1)
 
 set(CMAKE_CXX_STANDARD 17)
 
+list(APPEND CMAKE_PREFIX_PATH "/opt/homebrew")
+
 #Boost 라이브러리 설치 확인
 #find_package(Boost)
 find_package(Boost REQUIRED COMPONENTS thread json)
+
+
 
 # include_directories(./async-mqtt5/include)
 include_directories(../include)
@@ -27,7 +31,14 @@ set (SOURCE_FILES
         mime_types.cpp
         )
 
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(MONGOCXX REQUIRED libmongocxx)
 
-add_executable(asio-http-1 ${SOURCE_FILES})
+if (MONGOCXX_FOUND)
+    include_directories(${MONGOCXX_INCLUDE_DIRS})  
+endif()
 
-# target_link_libraries(async_tcp_server Boost::thread)
+
+add_executable(${PROJECT_NAME} ${SOURCE_FILES})
+
+target_link_libraries(${PROJECT_NAME} ${MONGOCXX_LIBRARY_DIRS}/libmongocxx.dylib ${MONGOCXX_LIBRARY_DIRS}/libbsoncxx.dylib)

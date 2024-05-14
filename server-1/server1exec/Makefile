@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server-1
+CMAKE_SOURCE_DIR = /users/kelvin/Documents/asiowebserver/server-1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server-1/server1exec
+CMAKE_BINARY_DIR = /users/kelvin/Documents/asiowebserver/server-1/server1exec
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server-1
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	/opt/homebrew/Cellar/cmake/3.29.0/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/homebrew/Cellar/cmake/3.29.2/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/opt/homebrew/Cellar/cmake/3.29.0/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/homebrew/Cellar/cmake/3.29.2/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server-1/server1exec/CMakeFiles /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server-1/server1exec//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /users/kelvin/Documents/asiowebserver/server-1/server1exec/CMakeFiles /users/kelvin/Documents/asiowebserver/server-1/server1exec//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/istec/Lecture_sw/Projects/asio/asio-webserver/server-1/server1exec/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /users/kelvin/Documents/asiowebserver/server-1/server1exec/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named asio-http-1
+# Target rules for targets named server1
 
 # Build rule for target.
-asio-http-1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio-http-1
-.PHONY : asio-http-1
+server1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server1
+.PHONY : server1
 
 # fast build rule for target.
-asio-http-1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/build
-.PHONY : asio-http-1/fast
+server1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/build
+.PHONY : server1/fast
 
 connection.o: connection.cpp.o
 .PHONY : connection.o
 
 # target to build an object file
 connection.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/connection.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/connection.cpp.o
 .PHONY : connection.cpp.o
 
 connection.i: connection.cpp.i
@@ -142,7 +142,7 @@ connection.i: connection.cpp.i
 
 # target to preprocess a source file
 connection.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/connection.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/connection.cpp.i
 .PHONY : connection.cpp.i
 
 connection.s: connection.cpp.s
@@ -150,7 +150,7 @@ connection.s: connection.cpp.s
 
 # target to generate assembly for a file
 connection.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/connection.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/connection.cpp.s
 .PHONY : connection.cpp.s
 
 connection_manager.o: connection_manager.cpp.o
@@ -158,7 +158,7 @@ connection_manager.o: connection_manager.cpp.o
 
 # target to build an object file
 connection_manager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/connection_manager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/connection_manager.cpp.o
 .PHONY : connection_manager.cpp.o
 
 connection_manager.i: connection_manager.cpp.i
@@ -166,7 +166,7 @@ connection_manager.i: connection_manager.cpp.i
 
 # target to preprocess a source file
 connection_manager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/connection_manager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/connection_manager.cpp.i
 .PHONY : connection_manager.cpp.i
 
 connection_manager.s: connection_manager.cpp.s
@@ -174,7 +174,7 @@ connection_manager.s: connection_manager.cpp.s
 
 # target to generate assembly for a file
 connection_manager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/connection_manager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/connection_manager.cpp.s
 .PHONY : connection_manager.cpp.s
 
 main.o: main.cpp.o
@@ -182,7 +182,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -190,7 +190,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -198,7 +198,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 mime_types.o: mime_types.cpp.o
@@ -206,7 +206,7 @@ mime_types.o: mime_types.cpp.o
 
 # target to build an object file
 mime_types.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/mime_types.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/mime_types.cpp.o
 .PHONY : mime_types.cpp.o
 
 mime_types.i: mime_types.cpp.i
@@ -214,7 +214,7 @@ mime_types.i: mime_types.cpp.i
 
 # target to preprocess a source file
 mime_types.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/mime_types.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/mime_types.cpp.i
 .PHONY : mime_types.cpp.i
 
 mime_types.s: mime_types.cpp.s
@@ -222,7 +222,7 @@ mime_types.s: mime_types.cpp.s
 
 # target to generate assembly for a file
 mime_types.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/mime_types.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/mime_types.cpp.s
 .PHONY : mime_types.cpp.s
 
 reply.o: reply.cpp.o
@@ -230,7 +230,7 @@ reply.o: reply.cpp.o
 
 # target to build an object file
 reply.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/reply.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/reply.cpp.o
 .PHONY : reply.cpp.o
 
 reply.i: reply.cpp.i
@@ -238,7 +238,7 @@ reply.i: reply.cpp.i
 
 # target to preprocess a source file
 reply.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/reply.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/reply.cpp.i
 .PHONY : reply.cpp.i
 
 reply.s: reply.cpp.s
@@ -246,7 +246,7 @@ reply.s: reply.cpp.s
 
 # target to generate assembly for a file
 reply.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/reply.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/reply.cpp.s
 .PHONY : reply.cpp.s
 
 request_handler.o: request_handler.cpp.o
@@ -254,7 +254,7 @@ request_handler.o: request_handler.cpp.o
 
 # target to build an object file
 request_handler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/request_handler.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/request_handler.cpp.o
 .PHONY : request_handler.cpp.o
 
 request_handler.i: request_handler.cpp.i
@@ -262,7 +262,7 @@ request_handler.i: request_handler.cpp.i
 
 # target to preprocess a source file
 request_handler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/request_handler.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/request_handler.cpp.i
 .PHONY : request_handler.cpp.i
 
 request_handler.s: request_handler.cpp.s
@@ -270,7 +270,7 @@ request_handler.s: request_handler.cpp.s
 
 # target to generate assembly for a file
 request_handler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/request_handler.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/request_handler.cpp.s
 .PHONY : request_handler.cpp.s
 
 request_parser.o: request_parser.cpp.o
@@ -278,7 +278,7 @@ request_parser.o: request_parser.cpp.o
 
 # target to build an object file
 request_parser.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/request_parser.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/request_parser.cpp.o
 .PHONY : request_parser.cpp.o
 
 request_parser.i: request_parser.cpp.i
@@ -286,7 +286,7 @@ request_parser.i: request_parser.cpp.i
 
 # target to preprocess a source file
 request_parser.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/request_parser.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/request_parser.cpp.i
 .PHONY : request_parser.cpp.i
 
 request_parser.s: request_parser.cpp.s
@@ -294,7 +294,7 @@ request_parser.s: request_parser.cpp.s
 
 # target to generate assembly for a file
 request_parser.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/request_parser.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/request_parser.cpp.s
 .PHONY : request_parser.cpp.s
 
 server.o: server.cpp.o
@@ -302,7 +302,7 @@ server.o: server.cpp.o
 
 # target to build an object file
 server.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/server.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/server.cpp.o
 .PHONY : server.cpp.o
 
 server.i: server.cpp.i
@@ -310,7 +310,7 @@ server.i: server.cpp.i
 
 # target to preprocess a source file
 server.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/server.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/server.cpp.i
 .PHONY : server.cpp.i
 
 server.s: server.cpp.s
@@ -318,7 +318,7 @@ server.s: server.cpp.s
 
 # target to generate assembly for a file
 server.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asio-http-1.dir/build.make CMakeFiles/asio-http-1.dir/server.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server1.dir/build.make CMakeFiles/server1.dir/server.cpp.s
 .PHONY : server.cpp.s
 
 # Help Target
@@ -329,7 +329,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... asio-http-1"
+	@echo "... server1"
 	@echo "... connection.o"
 	@echo "... connection.i"
 	@echo "... connection.s"
