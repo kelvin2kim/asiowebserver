@@ -1,6 +1,6 @@
 CMakeFiles/server3.dir/server.cpp.o: \
-  /users/kelvin/Documents/asiowebserver/server3/server.cpp \
-  /users/kelvin/Documents/asiowebserver/server3/server.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/server.cpp \
+  /Users/kelvin/Documents/asiowebserver/server3/server.hpp \
   /opt/homebrew/include/boost/asio.hpp \
   /opt/homebrew/include/boost/asio/any_completion_executor.hpp \
   /opt/homebrew/include/boost/asio/detail/config.hpp \
@@ -88,6 +88,17 @@ CMakeFiles/server3.dir/server.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/charconv \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/execution \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/barrier \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/format \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/bit \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/latch \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/span \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/compare \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/numbers \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/concepts \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ranges \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/coroutine \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/semaphore \
   /opt/homebrew/include/boost/config/detail/cxx_composite.hpp \
   /opt/homebrew/include/boost/version.hpp \
   /opt/homebrew/include/boost/asio/execution.hpp \
@@ -336,7 +347,6 @@ CMakeFiles/server3.dir/server.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/chrono \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/calendar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/day.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/compare \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/common_comparison_category.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/ordering.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/compare_partial_order_fallback.h \
@@ -382,7 +392,6 @@ CMakeFiles/server3.dir/server.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_primary_template.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_valid_expansion.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/concepts \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/arithmetic.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_signed_integer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_unsigned_integer.h \
@@ -677,7 +686,6 @@ CMakeFiles/server3.dir/server.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/is_valid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/log2.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/bit \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bit/byteswap.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/uniform_random_bit_generator_adaptor.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h \
@@ -983,22 +991,28 @@ CMakeFiles/server3.dir/server.cpp.o: \
   /opt/homebrew/include/boost/asio/as_tuple.hpp \
   /opt/homebrew/include/boost/asio/impl/as_tuple.hpp \
   /opt/homebrew/include/boost/asio/awaitable.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__coroutine/coroutine_handle.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__coroutine/coroutine_traits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__coroutine/noop_coroutine_handle.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__coroutine/trivial_awaitables.h \
+  /opt/homebrew/include/boost/asio/impl/awaitable.hpp \
+  /opt/homebrew/include/boost/asio/post.hpp \
+  /opt/homebrew/include/boost/asio/detail/initiate_post.hpp \
+  /opt/homebrew/include/boost/asio/detail/work_dispatcher.hpp \
+  /opt/homebrew/include/boost/asio/detail/bind_handler.hpp \
+  /opt/homebrew/include/boost/asio/executor_work_guard.hpp \
+  /opt/homebrew/include/boost/asio/this_coro.hpp \
   /opt/homebrew/include/boost/asio/basic_datagram_socket.hpp \
   /opt/homebrew/include/boost/asio/basic_socket.hpp \
   /opt/homebrew/include/boost/asio/detail/io_object_impl.hpp \
   /opt/homebrew/include/boost/asio/io_context.hpp \
   /opt/homebrew/include/boost/asio/detail/chrono.hpp \
   /opt/homebrew/include/boost/asio/detail/wrapped_handler.hpp \
-  /opt/homebrew/include/boost/asio/detail/bind_handler.hpp \
   /opt/homebrew/include/boost/asio/impl/io_context.hpp \
   /opt/homebrew/include/boost/asio/detail/completion_handler.hpp \
   /opt/homebrew/include/boost/asio/detail/handler_work.hpp \
   /opt/homebrew/include/boost/asio/detail/initiate_dispatch.hpp \
-  /opt/homebrew/include/boost/asio/detail/work_dispatcher.hpp \
-  /opt/homebrew/include/boost/asio/executor_work_guard.hpp \
   /opt/homebrew/include/boost/asio/impl/io_context.ipp \
-  /opt/homebrew/include/boost/asio/post.hpp \
-  /opt/homebrew/include/boost/asio/detail/initiate_post.hpp \
   /opt/homebrew/include/boost/asio/socket_base.hpp \
   /opt/homebrew/include/boost/asio/detail/io_control.hpp \
   /opt/homebrew/include/boost/asio/detail/socket_option.hpp \
@@ -1220,6 +1234,11 @@ CMakeFiles/server3.dir/server.cpp.o: \
   /opt/homebrew/include/boost/preprocessor/variadic/size.hpp \
   /opt/homebrew/include/boost/preprocessor/facilities/check_empty.hpp \
   /opt/homebrew/include/boost/preprocessor/variadic/has_opt.hpp \
+  /opt/homebrew/include/boost/preprocessor/variadic/detail/has_opt.hpp \
+  /opt/homebrew/include/boost/preprocessor/facilities/is_empty_variadic.hpp \
+  /opt/homebrew/include/boost/preprocessor/punctuation/is_begin_parens.hpp \
+  /opt/homebrew/include/boost/preprocessor/punctuation/detail/is_begin_parens.hpp \
+  /opt/homebrew/include/boost/preprocessor/facilities/detail/is_empty.hpp \
   /opt/homebrew/include/boost/preprocessor/variadic/limits/size_64.hpp \
   /opt/homebrew/include/boost/preprocessor/tuple/rem.hpp \
   /opt/homebrew/include/boost/preprocessor/tuple/detail/is_single_return.hpp \
@@ -1373,6 +1392,9 @@ CMakeFiles/server3.dir/server.cpp.o: \
   /opt/homebrew/include/boost/asio/impl/buffered_write_stream.hpp \
   /opt/homebrew/include/boost/asio/buffers_iterator.hpp \
   /opt/homebrew/include/boost/asio/co_spawn.hpp \
+  /opt/homebrew/include/boost/asio/impl/co_spawn.hpp \
+  /opt/homebrew/include/boost/asio/use_awaitable.hpp \
+  /opt/homebrew/include/boost/asio/impl/use_awaitable.hpp \
   /opt/homebrew/include/boost/asio/compose.hpp \
   /opt/homebrew/include/boost/asio/detail/composed_work.hpp \
   /opt/homebrew/include/boost/asio/connect.hpp \
@@ -1505,8 +1527,6 @@ CMakeFiles/server3.dir/server.cpp.o: \
   /opt/homebrew/include/boost/asio/stream_file.hpp \
   /opt/homebrew/include/boost/asio/streambuf.hpp \
   /opt/homebrew/include/boost/asio/system_timer.hpp \
-  /opt/homebrew/include/boost/asio/this_coro.hpp \
-  /opt/homebrew/include/boost/asio/use_awaitable.hpp \
   /opt/homebrew/include/boost/asio/use_future.hpp \
   /opt/homebrew/include/boost/asio/impl/use_future.hpp \
   /opt/homebrew/include/boost/asio/version.hpp \
@@ -1522,9 +1542,9 @@ CMakeFiles/server3.dir/server.cpp.o: \
   /opt/homebrew/include/boost/asio/writable_pipe.hpp \
   /opt/homebrew/include/boost/asio/write_at.hpp \
   /opt/homebrew/include/boost/asio/impl/write_at.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/request_handler.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/connection.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/reply.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/header.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/request.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/request_parser.hpp
+  /Users/kelvin/Documents/asiowebserver/server3/request_handler.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/connection.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/reply.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/header.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/request.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/request_parser.hpp

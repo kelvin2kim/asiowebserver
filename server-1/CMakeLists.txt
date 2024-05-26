@@ -13,6 +13,9 @@ find_package(Boost REQUIRED COMPONENTS thread json)
 
 # include_directories(./async-mqtt5/include)
 include_directories(../include)
+include_directories(../include/src)
+include_directories(../include/include)
+
 
 if(Boost_FOUND)
     # include 패스 설정

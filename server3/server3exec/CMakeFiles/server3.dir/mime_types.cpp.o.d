@@ -1,6 +1,6 @@
 CMakeFiles/server3.dir/mime_types.cpp.o: \
-  /users/kelvin/Documents/asiowebserver/server3/mime_types.cpp \
-  /users/kelvin/Documents/asiowebserver/server3/mime_types.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/mime_types.cpp \
+  /Users/kelvin/Documents/asiowebserver/server3/mime_types.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/comp.h \

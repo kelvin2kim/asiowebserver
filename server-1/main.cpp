@@ -35,6 +35,8 @@
 #include <boost/asio/use_awaitable.hpp>
 #include <boost/asio/ip/tcp.hpp>
 
+#include <pgfe/pgfe.hpp>
+
 using client_type = async_mqtt5::mqtt_client<boost::asio::ip::tcp::socket>;
 client_type* pmqtt;
 

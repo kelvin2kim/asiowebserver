@@ -1,6 +1,6 @@
 CMakeFiles/server1.dir/connection_manager.cpp.o: \
-  /users/kelvin/Documents/asiowebserver/server-1/connection_manager.cpp \
-  /users/kelvin/Documents/asiowebserver/server-1/connection_manager.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/connection_manager.cpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/connection_manager.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/set \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/equal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -666,7 +666,7 @@ CMakeFiles/server1.dir/connection_manager.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /users/kelvin/Documents/asiowebserver/server-1/connection.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/connection.hpp \
   /opt/homebrew/include/boost/asio.hpp \
   /opt/homebrew/include/boost/asio/any_completion_executor.hpp \
   /opt/homebrew/include/boost/asio/detail/config.hpp \
@@ -1545,8 +1545,8 @@ CMakeFiles/server1.dir/connection_manager.cpp.o: \
   /opt/homebrew/include/boost/asio/writable_pipe.hpp \
   /opt/homebrew/include/boost/asio/write_at.hpp \
   /opt/homebrew/include/boost/asio/impl/write_at.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/reply.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/header.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/request.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/request_handler.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/request_parser.hpp
+  /Users/kelvin/Documents/asiowebserver/server-1/reply.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/header.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/request.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/request_handler.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/request_parser.hpp

@@ -54,10 +54,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /users/kelvin/Documents/asiowebserver/server2
+CMAKE_SOURCE_DIR = /Users/kelvin/Documents/asiowebserver/server2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /users/kelvin/Documents/asiowebserver/server2/server2exec
+CMAKE_BINARY_DIR = /Users/kelvin/Documents/asiowebserver/server2/server2exec
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/server2.dir/clean
 CMakeFiles/server2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server2.dir/build.make CMakeFiles/server2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server2.dir/build.make CMakeFiles/server2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/users/kelvin/Documents/asiowebserver/server2/server2exec/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target server2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/kelvin/Documents/asiowebserver/server2/server2exec/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target server2"
 .PHONY : CMakeFiles/server2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/server2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /users/kelvin/Documents/asiowebserver/server2/server2exec/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kelvin/Documents/asiowebserver/server2/server2exec/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/server2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /users/kelvin/Documents/asiowebserver/server2/server2exec/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kelvin/Documents/asiowebserver/server2/server2exec/CMakeFiles 0
 .PHONY : CMakeFiles/server2.dir/rule
 
 # Convenience name for target.

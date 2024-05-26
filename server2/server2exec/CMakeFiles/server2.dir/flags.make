@@ -4,9 +4,9 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = -DBOOST_CONTAINER_DYN_LINK -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_DYN_LINK -DBOOST_JSON_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB
 
-CXX_INCLUDES = -I/users/kelvin/Documents/asiowebserver/server2/../include -I/opt/homebrew/Cellar/mongo-cxx-driver/3.10.1/include/mongocxx/v_noabi -I/opt/homebrew/Cellar/mongo-cxx-driver/3.10.1/include -I/opt/homebrew/Cellar/mongo-cxx-driver/3.10.1/include/bsoncxx/v_noabi/bsoncxx/third_party/mnmlstc -I/opt/homebrew/Cellar/mongo-cxx-driver/3.10.1/include/bsoncxx/v_noabi -isystem /opt/homebrew/include
+CXX_INCLUDES = -I/Users/kelvin/Documents/asiowebserver/server2/../include -I/opt/homebrew/Cellar/mongo-cxx-driver/3.10.1/include/mongocxx/v_noabi -I/opt/homebrew/Cellar/mongo-cxx-driver/3.10.1/include -I/opt/homebrew/Cellar/mongo-cxx-driver/3.10.1/include/bsoncxx/v_noabi/bsoncxx/third_party/mnmlstc -I/opt/homebrew/Cellar/mongo-cxx-driver/3.10.1/include/bsoncxx/v_noabi -isystem /opt/homebrew/include
 
-CXX_FLAGSarm64 = -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+CXX_FLAGSarm64 = -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
 
-CXX_FLAGS = -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+CXX_FLAGS = -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
 

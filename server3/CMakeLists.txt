@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 project(server3)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 
 list(APPEND CMAKE_PREFIX_PATH "/opt/homebrew")
 
@@ -32,6 +32,7 @@ set (SOURCE_FILES
 
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(MONGOCXX REQUIRED libmongocxx)
+pkg_check_modules(libpqxx REQUIRED IMPORTED_TARGET libpqxx)
 
 if (MONGOCXX_FOUND)
     include_directories(${MONGOCXX_INCLUDE_DIRS})  
@@ -40,4 +41,4 @@ endif()
 
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 
-target_link_libraries(${PROJECT_NAME} ${MONGOCXX_LIBRARY_DIRS}/libmongocxx.dylib ${MONGOCXX_LIBRARY_DIRS}/libbsoncxx.dylib)
+target_link_libraries(${PROJECT_NAME} ${MONGOCXX_LIBRARY_DIRS}/libmongocxx.dylib ${MONGOCXX_LIBRARY_DIRS}/libbsoncxx.dylib PkgConfig::libpqxx)

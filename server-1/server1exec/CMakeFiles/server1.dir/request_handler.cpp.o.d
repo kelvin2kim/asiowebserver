@@ -1,6 +1,6 @@
 CMakeFiles/server1.dir/request_handler.cpp.o: \
-  /users/kelvin/Documents/asiowebserver/server-1/request_handler.cpp \
-  /users/kelvin/Documents/asiowebserver/server-1/request_handler.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/request_handler.cpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/request_handler.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -750,8 +750,8 @@ CMakeFiles/server1.dir/request_handler.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/sstream \
-  /users/kelvin/Documents/asiowebserver/server-1/mime_types.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/reply.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/mime_types.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/reply.hpp \
   /opt/homebrew/include/boost/asio.hpp \
   /opt/homebrew/include/boost/asio/any_completion_executor.hpp \
   /opt/homebrew/include/boost/asio/detail/config.hpp \
@@ -1561,14 +1561,14 @@ CMakeFiles/server1.dir/request_handler.cpp.o: \
   /opt/homebrew/include/boost/asio/writable_pipe.hpp \
   /opt/homebrew/include/boost/asio/write_at.hpp \
   /opt/homebrew/include/boost/asio/impl/write_at.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/header.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/request.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/globals.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/error.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/mqtt_client.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/types.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/property_types.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/header.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/request.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/globals.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/error.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/mqtt_client.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/types.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/property_types.hpp \
   /opt/homebrew/include/boost/container/small_vector.hpp \
   /opt/homebrew/include/boost/container/detail/config_begin.hpp \
   /opt/homebrew/include/boost/container/detail/workaround.hpp \
@@ -1648,7 +1648,7 @@ CMakeFiles/server1.dir/request_handler.cpp.o: \
   /opt/homebrew/include/boost/move/algo/detail/is_sorted.hpp \
   /opt/homebrew/include/boost/move/algo/unique.hpp \
   /opt/homebrew/include/boost/move/algo/detail/set_difference.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/client_service.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/client_service.hpp \
   /opt/homebrew/include/boost/asio/experimental/basic_channel.hpp \
   /opt/homebrew/include/boost/asio/detail/null_mutex.hpp \
   /opt/homebrew/include/boost/asio/experimental/detail/channel_send_functions.hpp \
@@ -1663,10 +1663,10 @@ CMakeFiles/server1.dir/request_handler.cpp.o: \
   /opt/homebrew/include/boost/asio/experimental/impl/channel_error.ipp \
   /opt/homebrew/include/boost/asio/experimental/detail/has_signature.hpp \
   /opt/homebrew/include/boost/asio/experimental/detail/impl/channel_service.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/detail/channel_traits.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/detail/channel_traits.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/deque \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/detail/internal_types.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/detail/any_authenticator.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/detail/internal_types.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/detail/any_authenticator.hpp \
   /opt/homebrew/include/boost/type_traits/is_detected.hpp \
   /opt/homebrew/include/boost/type_traits/detail/detector.hpp \
   /opt/homebrew/include/boost/type_traits/make_void.hpp \
@@ -1686,8 +1686,8 @@ CMakeFiles/server1.dir/request_handler.cpp.o: \
   /opt/homebrew/include/boost/type_traits/detail/is_function_cxx_11.hpp \
   /opt/homebrew/include/boost/type_traits/detail/yes_no_type.hpp \
   /opt/homebrew/include/boost/type_traits/is_array.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/assemble_op.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/detail/control_packet.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/assemble_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/detail/control_packet.hpp \
   /opt/homebrew/include/boost/smart_ptr/allocate_unique.hpp \
   /opt/homebrew/include/boost/core/allocator_access.hpp \
   /opt/homebrew/include/boost/core/pointer_traits.hpp \
@@ -1701,8 +1701,8 @@ CMakeFiles/server1.dir/request_handler.cpp.o: \
   /opt/homebrew/include/boost/type_traits/is_unbounded_array.hpp \
   /opt/homebrew/include/boost/type_traits/remove_extent.hpp \
   /opt/homebrew/include/boost/type_traits/type_identity.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/codecs/message_decoders.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/codecs/base_decoders.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/codecs/message_decoders.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/codecs/base_decoders.hpp \
   /opt/homebrew/include/boost/spirit/home/x3.hpp \
   /opt/homebrew/include/boost/spirit/home/x3/auxiliary.hpp \
   /opt/homebrew/include/boost/spirit/home/x3/auxiliary/any_parser.hpp \
@@ -2420,12 +2420,12 @@ CMakeFiles/server1.dir/request_handler.cpp.o: \
   /opt/homebrew/include/boost/fusion/support/detail/index_sequence.hpp \
   /opt/homebrew/include/boost/fusion/adapted/std_tuple/tag_of.hpp \
   /opt/homebrew/include/boost/fusion/adapted/std_tuple/mpl/clear.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/codecs/traits.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/codecs/traits.hpp \
   /opt/homebrew/include/boost/type_traits/remove_cv_ref.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/async_sender.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/autoconnect_stream.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/detail/async_mutex.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/detail/async_traits.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/async_sender.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/autoconnect_stream.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/detail/async_mutex.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/detail/async_traits.hpp \
   /opt/homebrew/include/boost/beast/core/stream_traits.hpp \
   /opt/homebrew/include/boost/beast/core/detail/config.hpp \
   /opt/homebrew/include/boost/beast/core/detail/static_const.hpp \
@@ -2434,14 +2434,14 @@ CMakeFiles/server1.dir/request_handler.cpp.o: \
   /opt/homebrew/include/boost/beast/core/impl/error.hpp \
   /opt/homebrew/include/boost/beast/core/impl/error.ipp \
   /opt/homebrew/include/boost/type_traits/detected_or.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/detail/ring_buffer.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/detail/spinlock.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/endpoints.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/detail/ring_buffer.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/detail/spinlock.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/endpoints.hpp \
   /opt/homebrew/include/boost/asio/experimental/parallel_group.hpp \
   /opt/homebrew/include/boost/asio/experimental/cancellation_condition.hpp \
   /opt/homebrew/include/boost/asio/experimental/impl/parallel_group.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/read_op.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/reconnect_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/read_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/reconnect_op.hpp \
   /opt/homebrew/include/boost/random/linear_congruential.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
   /opt/homebrew/include/boost/random/detail/config.hpp \
@@ -2465,7 +2465,7 @@ CMakeFiles/server1.dir/request_handler.cpp.o: \
   /opt/homebrew/include/boost/random/detail/operators.hpp \
   /opt/homebrew/include/boost/random/uniform_01.hpp \
   /opt/homebrew/include/boost/random/detail/ptr_helper.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/connect_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/connect_op.hpp \
   /opt/homebrew/include/boost/beast/http/field.hpp \
   /opt/homebrew/include/boost/beast/core/string.hpp \
   /opt/homebrew/include/boost/beast/core/string_type.hpp \
@@ -2623,22 +2623,22 @@ CMakeFiles/server1.dir/request_handler.cpp.o: \
   /opt/homebrew/include/boost/beast/websocket/stream_base.hpp \
   /opt/homebrew/include/boost/beast/websocket/detail/decorator.hpp \
   /opt/homebrew/include/boost/beast/core/role.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/reason_codes.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/codecs/message_encoders.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/codecs/base_encoders.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/reason_codes.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/codecs/message_encoders.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/codecs/base_encoders.hpp \
   /opt/homebrew/include/boost/core/identity.hpp \
   /opt/homebrew/include/boost/type_traits/is_detected_exact.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/write_op.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/ping_op.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/replies.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/sentry_op.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/disconnect_op.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/detail/cancellable_handler.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/detail/topic_validation.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/detail/utf8_mqtt.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/publish_send_op.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/read_message_op.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/publish_rec_op.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/re_auth_op.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/subscribe_op.hpp \
-  /users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/unsubscribe_op.hpp
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/write_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/ping_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/replies.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/sentry_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/disconnect_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/detail/cancellable_handler.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/detail/topic_validation.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/detail/utf8_mqtt.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/publish_send_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/read_message_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/publish_rec_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/re_auth_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/subscribe_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server-1/../include/async_mqtt5/impl/unsubscribe_op.hpp

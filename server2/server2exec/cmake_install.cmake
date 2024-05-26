@@ -1,4 +1,4 @@
-# Install script for directory: /users/kelvin/Documents/asiowebserver/server2
+# Install script for directory: /Users/kelvin/Documents/asiowebserver/server2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/users/kelvin/Documents/asiowebserver/server2/server2exec/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/kelvin/Documents/asiowebserver/server2/server2exec/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

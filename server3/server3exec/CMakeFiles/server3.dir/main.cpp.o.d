@@ -1,5 +1,5 @@
 CMakeFiles/server3.dir/main.cpp.o: \
-  /users/kelvin/Documents/asiowebserver/server3/main.cpp \
+  /Users/kelvin/Documents/asiowebserver/server3/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
@@ -759,6 +759,14 @@ CMakeFiles/server3.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/charconv \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/execution \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/barrier \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/format \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/latch \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/span \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/numbers \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ranges \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/coroutine \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/semaphore \
   /opt/homebrew/include/boost/config/detail/cxx_composite.hpp \
   /opt/homebrew/include/boost/version.hpp \
   /opt/homebrew/include/boost/asio/execution.hpp \
@@ -984,22 +992,28 @@ CMakeFiles/server3.dir/main.cpp.o: \
   /opt/homebrew/include/boost/asio/as_tuple.hpp \
   /opt/homebrew/include/boost/asio/impl/as_tuple.hpp \
   /opt/homebrew/include/boost/asio/awaitable.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__coroutine/coroutine_handle.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__coroutine/coroutine_traits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__coroutine/noop_coroutine_handle.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__coroutine/trivial_awaitables.h \
+  /opt/homebrew/include/boost/asio/impl/awaitable.hpp \
+  /opt/homebrew/include/boost/asio/post.hpp \
+  /opt/homebrew/include/boost/asio/detail/initiate_post.hpp \
+  /opt/homebrew/include/boost/asio/detail/work_dispatcher.hpp \
+  /opt/homebrew/include/boost/asio/detail/bind_handler.hpp \
+  /opt/homebrew/include/boost/asio/executor_work_guard.hpp \
+  /opt/homebrew/include/boost/asio/this_coro.hpp \
   /opt/homebrew/include/boost/asio/basic_datagram_socket.hpp \
   /opt/homebrew/include/boost/asio/basic_socket.hpp \
   /opt/homebrew/include/boost/asio/detail/io_object_impl.hpp \
   /opt/homebrew/include/boost/asio/io_context.hpp \
   /opt/homebrew/include/boost/asio/detail/chrono.hpp \
   /opt/homebrew/include/boost/asio/detail/wrapped_handler.hpp \
-  /opt/homebrew/include/boost/asio/detail/bind_handler.hpp \
   /opt/homebrew/include/boost/asio/impl/io_context.hpp \
   /opt/homebrew/include/boost/asio/detail/completion_handler.hpp \
   /opt/homebrew/include/boost/asio/detail/handler_work.hpp \
   /opt/homebrew/include/boost/asio/detail/initiate_dispatch.hpp \
-  /opt/homebrew/include/boost/asio/detail/work_dispatcher.hpp \
-  /opt/homebrew/include/boost/asio/executor_work_guard.hpp \
   /opt/homebrew/include/boost/asio/impl/io_context.ipp \
-  /opt/homebrew/include/boost/asio/post.hpp \
-  /opt/homebrew/include/boost/asio/detail/initiate_post.hpp \
   /opt/homebrew/include/boost/asio/socket_base.hpp \
   /opt/homebrew/include/boost/asio/detail/io_control.hpp \
   /opt/homebrew/include/boost/asio/detail/socket_option.hpp \
@@ -1220,6 +1234,11 @@ CMakeFiles/server3.dir/main.cpp.o: \
   /opt/homebrew/include/boost/preprocessor/variadic/size.hpp \
   /opt/homebrew/include/boost/preprocessor/facilities/check_empty.hpp \
   /opt/homebrew/include/boost/preprocessor/variadic/has_opt.hpp \
+  /opt/homebrew/include/boost/preprocessor/variadic/detail/has_opt.hpp \
+  /opt/homebrew/include/boost/preprocessor/facilities/is_empty_variadic.hpp \
+  /opt/homebrew/include/boost/preprocessor/punctuation/is_begin_parens.hpp \
+  /opt/homebrew/include/boost/preprocessor/punctuation/detail/is_begin_parens.hpp \
+  /opt/homebrew/include/boost/preprocessor/facilities/detail/is_empty.hpp \
   /opt/homebrew/include/boost/preprocessor/variadic/limits/size_64.hpp \
   /opt/homebrew/include/boost/preprocessor/tuple/rem.hpp \
   /opt/homebrew/include/boost/preprocessor/tuple/detail/is_single_return.hpp \
@@ -1373,6 +1392,9 @@ CMakeFiles/server3.dir/main.cpp.o: \
   /opt/homebrew/include/boost/asio/impl/buffered_write_stream.hpp \
   /opt/homebrew/include/boost/asio/buffers_iterator.hpp \
   /opt/homebrew/include/boost/asio/co_spawn.hpp \
+  /opt/homebrew/include/boost/asio/impl/co_spawn.hpp \
+  /opt/homebrew/include/boost/asio/use_awaitable.hpp \
+  /opt/homebrew/include/boost/asio/impl/use_awaitable.hpp \
   /opt/homebrew/include/boost/asio/compose.hpp \
   /opt/homebrew/include/boost/asio/detail/composed_work.hpp \
   /opt/homebrew/include/boost/asio/connect.hpp \
@@ -1505,8 +1527,6 @@ CMakeFiles/server3.dir/main.cpp.o: \
   /opt/homebrew/include/boost/asio/stream_file.hpp \
   /opt/homebrew/include/boost/asio/streambuf.hpp \
   /opt/homebrew/include/boost/asio/system_timer.hpp \
-  /opt/homebrew/include/boost/asio/this_coro.hpp \
-  /opt/homebrew/include/boost/asio/use_awaitable.hpp \
   /opt/homebrew/include/boost/asio/use_future.hpp \
   /opt/homebrew/include/boost/asio/impl/use_future.hpp \
   /opt/homebrew/include/boost/asio/version.hpp \
@@ -1522,14 +1542,14 @@ CMakeFiles/server3.dir/main.cpp.o: \
   /opt/homebrew/include/boost/asio/writable_pipe.hpp \
   /opt/homebrew/include/boost/asio/write_at.hpp \
   /opt/homebrew/include/boost/asio/impl/write_at.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/server.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/request_handler.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/globals.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/error.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/mqtt_client.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/types.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/property_types.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/server.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/request_handler.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/globals.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/error.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/mqtt_client.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/types.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/property_types.hpp \
   /opt/homebrew/include/boost/container/small_vector.hpp \
   /opt/homebrew/include/boost/container/detail/config_begin.hpp \
   /opt/homebrew/include/boost/container/detail/workaround.hpp \
@@ -1609,7 +1629,7 @@ CMakeFiles/server3.dir/main.cpp.o: \
   /opt/homebrew/include/boost/move/algo/detail/is_sorted.hpp \
   /opt/homebrew/include/boost/move/algo/unique.hpp \
   /opt/homebrew/include/boost/move/algo/detail/set_difference.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/client_service.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/client_service.hpp \
   /opt/homebrew/include/boost/asio/experimental/basic_channel.hpp \
   /opt/homebrew/include/boost/asio/detail/null_mutex.hpp \
   /opt/homebrew/include/boost/asio/experimental/detail/channel_send_functions.hpp \
@@ -1624,10 +1644,10 @@ CMakeFiles/server3.dir/main.cpp.o: \
   /opt/homebrew/include/boost/asio/experimental/impl/channel_error.ipp \
   /opt/homebrew/include/boost/asio/experimental/detail/has_signature.hpp \
   /opt/homebrew/include/boost/asio/experimental/detail/impl/channel_service.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/detail/channel_traits.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/detail/channel_traits.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/deque \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/detail/internal_types.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/detail/any_authenticator.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/detail/internal_types.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/detail/any_authenticator.hpp \
   /opt/homebrew/include/boost/type_traits/is_detected.hpp \
   /opt/homebrew/include/boost/type_traits/detail/detector.hpp \
   /opt/homebrew/include/boost/type_traits/make_void.hpp \
@@ -1647,8 +1667,8 @@ CMakeFiles/server3.dir/main.cpp.o: \
   /opt/homebrew/include/boost/type_traits/detail/is_function_cxx_11.hpp \
   /opt/homebrew/include/boost/type_traits/detail/yes_no_type.hpp \
   /opt/homebrew/include/boost/type_traits/is_array.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/assemble_op.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/detail/control_packet.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/assemble_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/detail/control_packet.hpp \
   /opt/homebrew/include/boost/smart_ptr/allocate_unique.hpp \
   /opt/homebrew/include/boost/core/allocator_access.hpp \
   /opt/homebrew/include/boost/core/pointer_traits.hpp \
@@ -1662,8 +1682,8 @@ CMakeFiles/server3.dir/main.cpp.o: \
   /opt/homebrew/include/boost/type_traits/is_unbounded_array.hpp \
   /opt/homebrew/include/boost/type_traits/remove_extent.hpp \
   /opt/homebrew/include/boost/type_traits/type_identity.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/codecs/message_decoders.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/codecs/base_decoders.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/codecs/message_decoders.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/codecs/base_decoders.hpp \
   /opt/homebrew/include/boost/spirit/home/x3.hpp \
   /opt/homebrew/include/boost/spirit/home/x3/auxiliary.hpp \
   /opt/homebrew/include/boost/spirit/home/x3/auxiliary/any_parser.hpp \
@@ -2381,12 +2401,12 @@ CMakeFiles/server3.dir/main.cpp.o: \
   /opt/homebrew/include/boost/fusion/support/detail/index_sequence.hpp \
   /opt/homebrew/include/boost/fusion/adapted/std_tuple/tag_of.hpp \
   /opt/homebrew/include/boost/fusion/adapted/std_tuple/mpl/clear.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/codecs/traits.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/codecs/traits.hpp \
   /opt/homebrew/include/boost/type_traits/remove_cv_ref.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/async_sender.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/autoconnect_stream.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/detail/async_mutex.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/detail/async_traits.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/async_sender.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/autoconnect_stream.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/detail/async_mutex.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/detail/async_traits.hpp \
   /opt/homebrew/include/boost/beast/core/stream_traits.hpp \
   /opt/homebrew/include/boost/beast/core/detail/config.hpp \
   /opt/homebrew/include/boost/beast/core/detail/static_const.hpp \
@@ -2395,14 +2415,14 @@ CMakeFiles/server3.dir/main.cpp.o: \
   /opt/homebrew/include/boost/beast/core/impl/error.hpp \
   /opt/homebrew/include/boost/beast/core/impl/error.ipp \
   /opt/homebrew/include/boost/type_traits/detected_or.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/detail/ring_buffer.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/detail/spinlock.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/endpoints.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/detail/ring_buffer.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/detail/spinlock.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/endpoints.hpp \
   /opt/homebrew/include/boost/asio/experimental/parallel_group.hpp \
   /opt/homebrew/include/boost/asio/experimental/cancellation_condition.hpp \
   /opt/homebrew/include/boost/asio/experimental/impl/parallel_group.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/read_op.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/reconnect_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/read_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/reconnect_op.hpp \
   /opt/homebrew/include/boost/random/linear_congruential.hpp \
   /opt/homebrew/include/boost/random/detail/config.hpp \
   /opt/homebrew/include/boost/random/detail/const_mod.hpp \
@@ -2425,7 +2445,7 @@ CMakeFiles/server3.dir/main.cpp.o: \
   /opt/homebrew/include/boost/random/detail/operators.hpp \
   /opt/homebrew/include/boost/random/uniform_01.hpp \
   /opt/homebrew/include/boost/random/detail/ptr_helper.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/connect_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/connect_op.hpp \
   /opt/homebrew/include/boost/beast/http/field.hpp \
   /opt/homebrew/include/boost/beast/core/string.hpp \
   /opt/homebrew/include/boost/beast/core/string_type.hpp \
@@ -2583,25 +2603,25 @@ CMakeFiles/server3.dir/main.cpp.o: \
   /opt/homebrew/include/boost/beast/websocket/stream_base.hpp \
   /opt/homebrew/include/boost/beast/websocket/detail/decorator.hpp \
   /opt/homebrew/include/boost/beast/core/role.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/reason_codes.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/codecs/message_encoders.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/codecs/base_encoders.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/reason_codes.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/codecs/message_encoders.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/codecs/base_encoders.hpp \
   /opt/homebrew/include/boost/core/identity.hpp \
   /opt/homebrew/include/boost/type_traits/is_detected_exact.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/write_op.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/ping_op.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/replies.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/sentry_op.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/disconnect_op.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/detail/cancellable_handler.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/detail/topic_validation.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/detail/utf8_mqtt.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/publish_send_op.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/read_message_op.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/publish_rec_op.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/re_auth_op.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/subscribe_op.hpp \
-  /users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/unsubscribe_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/write_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/ping_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/replies.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/sentry_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/disconnect_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/detail/cancellable_handler.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/detail/topic_validation.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/detail/utf8_mqtt.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/publish_send_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/read_message_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/publish_rec_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/re_auth_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/subscribe_op.hpp \
+  /Users/kelvin/Documents/asiowebserver/server3/../include/async_mqtt5/impl/unsubscribe_op.hpp \
   /opt/homebrew/Cellar/mongo-cxx-driver/3.10.1/include/mongocxx/v_noabi/mongocxx/client.hpp \
   /opt/homebrew/Cellar/mongo-cxx-driver/3.10.1/include/mongocxx/v_noabi/mongocxx/client-fwd.hpp \
   /opt/homebrew/Cellar/mongo-cxx-driver/3.10.1/include/mongocxx/v_noabi/mongocxx/config/prelude.hpp \
@@ -2847,4 +2867,121 @@ CMakeFiles/server3.dir/main.cpp.o: \
   /opt/homebrew/Cellar/mongo-cxx-driver/3.10.1/include/bsoncxx/v_noabi/bsoncxx/json-fwd.hpp \
   /opt/homebrew/Cellar/mongo-cxx-driver/3.10.1/include/mongocxx/v_noabi/mongocxx/instance.hpp \
   /opt/homebrew/Cellar/mongo-cxx-driver/3.10.1/include/mongocxx/v_noabi/mongocxx/instance-fwd.hpp \
-  /opt/homebrew/Cellar/mongo-cxx-driver/3.10.1/include/mongocxx/v_noabi/mongocxx/logger-fwd.hpp
+  /opt/homebrew/Cellar/mongo-cxx-driver/3.10.1/include/mongocxx/v_noabi/mongocxx/logger-fwd.hpp \
+  /opt/homebrew/include/pqxx/pqxx \
+  /opt/homebrew/include/pqxx/internal/header-pre.hxx \
+  /opt/homebrew/include/pqxx/config-public-compiler.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ciso646 \
+  /opt/homebrew/include/pqxx/array.hxx \
+  /opt/homebrew/include/pqxx/connection.hxx \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/list \
+  /opt/homebrew/include/pqxx/errorhandler.hxx \
+  /opt/homebrew/include/pqxx/types.hxx \
+  /opt/homebrew/include/pqxx/except.hxx \
+  /opt/homebrew/include/pqxx/internal/concat.hxx \
+  /opt/homebrew/include/pqxx/strconv.hxx \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__charconv/chars_format.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__charconv/from_chars_result.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__charconv/tables.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__charconv/to_chars_base_10.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__charconv/to_chars_result.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/make_32_64_or_128_bit.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/all.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/owning_view.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/range_adaptor.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/ref_view.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/common_view.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/counted.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__fwd/span.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/drop_view.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/empty_view.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/iota_view.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/copyable_box.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/non_propagating_cache.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/filter_view.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/join_view.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/lazy_split_view.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/single_view.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/rbegin.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/rend.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/reverse_view.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/take_view.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/transform_view.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/views.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/zip_view.h \
+  /opt/homebrew/include/pqxx/util.hxx \
+  /opt/homebrew/include/pqxx/version.hxx \
+  /opt/homebrew/include/pqxx/internal/libpq-forward.hxx \
+  /opt/homebrew/include/pqxx/internal/ignore-deprecated-pre.hxx \
+  /opt/homebrew/include/pqxx/internal/ignore-deprecated-post.hxx \
+  /opt/homebrew/include/pqxx/zview.hxx \
+  /opt/homebrew/include/pqxx/internal/conversions.hxx \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/numeric \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/accumulate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/inner_product.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/iota.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/midpoint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/partial_sum.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/reduce.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/transform_reduce.h \
+  /opt/homebrew/include/pqxx/params.hxx \
+  /opt/homebrew/include/pqxx/internal/statement_parameters.hxx \
+  /opt/homebrew/include/pqxx/binarystring.hxx \
+  /opt/homebrew/include/pqxx/result.hxx \
+  /opt/homebrew/include/pqxx/internal/encodings.hxx \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iomanip \
+  /opt/homebrew/include/pqxx/internal/encoding_group.hxx \
+  /opt/homebrew/include/pqxx/separated_list.hxx \
+  /opt/homebrew/include/pqxx/internal/array-composite.hxx \
+  /opt/homebrew/include/pqxx/blob.hxx \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/u8path.h \
+  /opt/homebrew/include/pqxx/dbtransaction.hxx \
+  /opt/homebrew/include/pqxx/transaction_base.hxx \
+  /opt/homebrew/include/pqxx/internal/stream_query.hxx \
+  /opt/homebrew/include/pqxx/internal/gates/connection-stream_from.hxx \
+  /opt/homebrew/include/pqxx/internal/callgate.hxx \
+  /opt/homebrew/include/pqxx/internal/stream_iterator.hxx \
+  /opt/homebrew/include/pqxx/transaction_focus.hxx \
+  /opt/homebrew/include/pqxx/isolation.hxx \
+  /opt/homebrew/include/pqxx/row.hxx \
+  /opt/homebrew/include/pqxx/field.hxx \
+  /opt/homebrew/include/pqxx/composite.hxx \
+  /opt/homebrew/include/pqxx/internal/stream_query_impl.hxx \
+  /opt/homebrew/include/pqxx/cursor.hxx \
+  /opt/homebrew/include/pqxx/internal/sql_cursor.hxx \
+  /opt/homebrew/include/pqxx/largeobject.hxx \
+  /opt/homebrew/include/pqxx/nontransaction.hxx \
+  /opt/homebrew/include/pqxx/transaction.hxx \
+  /opt/homebrew/include/pqxx/notification.hxx \
+  /opt/homebrew/include/pqxx/pipeline.hxx \
+  /opt/homebrew/include/pqxx/prepared_statement.hxx \
+  /opt/homebrew/include/pqxx/range.hxx \
+  /opt/homebrew/include/pqxx/internal/result_iterator.hxx \
+  /opt/homebrew/include/pqxx/internal/result_iter.hxx \
+  /opt/homebrew/include/pqxx/robusttransaction.hxx \
+  /opt/homebrew/include/pqxx/stream_from.hxx \
+  /opt/homebrew/include/pqxx/stream_to.hxx \
+  /opt/homebrew/include/pqxx/subtransaction.hxx \
+  /opt/homebrew/include/pqxx/time.hxx \
+  /opt/homebrew/include/pqxx/transactor.hxx \
+  /opt/homebrew/include/pqxx/internal/header-post.hxx

@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /users/kelvin/Documents/asiowebserver/server-1
+CMAKE_SOURCE_DIR = /Users/kelvin/Documents/asiowebserver/server-1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /users/kelvin/Documents/asiowebserver/server-1/server1exec
+CMAKE_BINARY_DIR = /Users/kelvin/Documents/asiowebserver/server-1/server1exec
 
 # Include any dependencies generated for this target.
 include CMakeFiles/server1.dir/depend.make
@@ -70,116 +70,116 @@ include CMakeFiles/server1.dir/progress.make
 include CMakeFiles/server1.dir/flags.make
 
 CMakeFiles/server1.dir/main.cpp.o: CMakeFiles/server1.dir/flags.make
-CMakeFiles/server1.dir/main.cpp.o: /users/kelvin/Documents/asiowebserver/server-1/main.cpp
+CMakeFiles/server1.dir/main.cpp.o: /Users/kelvin/Documents/asiowebserver/server-1/main.cpp
 CMakeFiles/server1.dir/main.cpp.o: CMakeFiles/server1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/users/kelvin/Documents/asiowebserver/server-1/server1exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/server1.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server1.dir/main.cpp.o -MF CMakeFiles/server1.dir/main.cpp.o.d -o CMakeFiles/server1.dir/main.cpp.o -c /users/kelvin/Documents/asiowebserver/server-1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kelvin/Documents/asiowebserver/server-1/server1exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/server1.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server1.dir/main.cpp.o -MF CMakeFiles/server1.dir/main.cpp.o.d -o CMakeFiles/server1.dir/main.cpp.o -c /Users/kelvin/Documents/asiowebserver/server-1/main.cpp
 
 CMakeFiles/server1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server1.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/kelvin/Documents/asiowebserver/server-1/main.cpp > CMakeFiles/server1.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelvin/Documents/asiowebserver/server-1/main.cpp > CMakeFiles/server1.dir/main.cpp.i
 
 CMakeFiles/server1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server1.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/kelvin/Documents/asiowebserver/server-1/main.cpp -o CMakeFiles/server1.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelvin/Documents/asiowebserver/server-1/main.cpp -o CMakeFiles/server1.dir/main.cpp.s
 
 CMakeFiles/server1.dir/server.cpp.o: CMakeFiles/server1.dir/flags.make
-CMakeFiles/server1.dir/server.cpp.o: /users/kelvin/Documents/asiowebserver/server-1/server.cpp
+CMakeFiles/server1.dir/server.cpp.o: /Users/kelvin/Documents/asiowebserver/server-1/server.cpp
 CMakeFiles/server1.dir/server.cpp.o: CMakeFiles/server1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/users/kelvin/Documents/asiowebserver/server-1/server1exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/server1.dir/server.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server1.dir/server.cpp.o -MF CMakeFiles/server1.dir/server.cpp.o.d -o CMakeFiles/server1.dir/server.cpp.o -c /users/kelvin/Documents/asiowebserver/server-1/server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kelvin/Documents/asiowebserver/server-1/server1exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/server1.dir/server.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server1.dir/server.cpp.o -MF CMakeFiles/server1.dir/server.cpp.o.d -o CMakeFiles/server1.dir/server.cpp.o -c /Users/kelvin/Documents/asiowebserver/server-1/server.cpp
 
 CMakeFiles/server1.dir/server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server1.dir/server.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/kelvin/Documents/asiowebserver/server-1/server.cpp > CMakeFiles/server1.dir/server.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelvin/Documents/asiowebserver/server-1/server.cpp > CMakeFiles/server1.dir/server.cpp.i
 
 CMakeFiles/server1.dir/server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server1.dir/server.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/kelvin/Documents/asiowebserver/server-1/server.cpp -o CMakeFiles/server1.dir/server.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelvin/Documents/asiowebserver/server-1/server.cpp -o CMakeFiles/server1.dir/server.cpp.s
 
 CMakeFiles/server1.dir/connection.cpp.o: CMakeFiles/server1.dir/flags.make
-CMakeFiles/server1.dir/connection.cpp.o: /users/kelvin/Documents/asiowebserver/server-1/connection.cpp
+CMakeFiles/server1.dir/connection.cpp.o: /Users/kelvin/Documents/asiowebserver/server-1/connection.cpp
 CMakeFiles/server1.dir/connection.cpp.o: CMakeFiles/server1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/users/kelvin/Documents/asiowebserver/server-1/server1exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/server1.dir/connection.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server1.dir/connection.cpp.o -MF CMakeFiles/server1.dir/connection.cpp.o.d -o CMakeFiles/server1.dir/connection.cpp.o -c /users/kelvin/Documents/asiowebserver/server-1/connection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kelvin/Documents/asiowebserver/server-1/server1exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/server1.dir/connection.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server1.dir/connection.cpp.o -MF CMakeFiles/server1.dir/connection.cpp.o.d -o CMakeFiles/server1.dir/connection.cpp.o -c /Users/kelvin/Documents/asiowebserver/server-1/connection.cpp
 
 CMakeFiles/server1.dir/connection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server1.dir/connection.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/kelvin/Documents/asiowebserver/server-1/connection.cpp > CMakeFiles/server1.dir/connection.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelvin/Documents/asiowebserver/server-1/connection.cpp > CMakeFiles/server1.dir/connection.cpp.i
 
 CMakeFiles/server1.dir/connection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server1.dir/connection.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/kelvin/Documents/asiowebserver/server-1/connection.cpp -o CMakeFiles/server1.dir/connection.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelvin/Documents/asiowebserver/server-1/connection.cpp -o CMakeFiles/server1.dir/connection.cpp.s
 
 CMakeFiles/server1.dir/connection_manager.cpp.o: CMakeFiles/server1.dir/flags.make
-CMakeFiles/server1.dir/connection_manager.cpp.o: /users/kelvin/Documents/asiowebserver/server-1/connection_manager.cpp
+CMakeFiles/server1.dir/connection_manager.cpp.o: /Users/kelvin/Documents/asiowebserver/server-1/connection_manager.cpp
 CMakeFiles/server1.dir/connection_manager.cpp.o: CMakeFiles/server1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/users/kelvin/Documents/asiowebserver/server-1/server1exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/server1.dir/connection_manager.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server1.dir/connection_manager.cpp.o -MF CMakeFiles/server1.dir/connection_manager.cpp.o.d -o CMakeFiles/server1.dir/connection_manager.cpp.o -c /users/kelvin/Documents/asiowebserver/server-1/connection_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kelvin/Documents/asiowebserver/server-1/server1exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/server1.dir/connection_manager.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server1.dir/connection_manager.cpp.o -MF CMakeFiles/server1.dir/connection_manager.cpp.o.d -o CMakeFiles/server1.dir/connection_manager.cpp.o -c /Users/kelvin/Documents/asiowebserver/server-1/connection_manager.cpp
 
 CMakeFiles/server1.dir/connection_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server1.dir/connection_manager.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/kelvin/Documents/asiowebserver/server-1/connection_manager.cpp > CMakeFiles/server1.dir/connection_manager.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelvin/Documents/asiowebserver/server-1/connection_manager.cpp > CMakeFiles/server1.dir/connection_manager.cpp.i
 
 CMakeFiles/server1.dir/connection_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server1.dir/connection_manager.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/kelvin/Documents/asiowebserver/server-1/connection_manager.cpp -o CMakeFiles/server1.dir/connection_manager.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelvin/Documents/asiowebserver/server-1/connection_manager.cpp -o CMakeFiles/server1.dir/connection_manager.cpp.s
 
 CMakeFiles/server1.dir/request_handler.cpp.o: CMakeFiles/server1.dir/flags.make
-CMakeFiles/server1.dir/request_handler.cpp.o: /users/kelvin/Documents/asiowebserver/server-1/request_handler.cpp
+CMakeFiles/server1.dir/request_handler.cpp.o: /Users/kelvin/Documents/asiowebserver/server-1/request_handler.cpp
 CMakeFiles/server1.dir/request_handler.cpp.o: CMakeFiles/server1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/users/kelvin/Documents/asiowebserver/server-1/server1exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/server1.dir/request_handler.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server1.dir/request_handler.cpp.o -MF CMakeFiles/server1.dir/request_handler.cpp.o.d -o CMakeFiles/server1.dir/request_handler.cpp.o -c /users/kelvin/Documents/asiowebserver/server-1/request_handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kelvin/Documents/asiowebserver/server-1/server1exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/server1.dir/request_handler.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server1.dir/request_handler.cpp.o -MF CMakeFiles/server1.dir/request_handler.cpp.o.d -o CMakeFiles/server1.dir/request_handler.cpp.o -c /Users/kelvin/Documents/asiowebserver/server-1/request_handler.cpp
 
 CMakeFiles/server1.dir/request_handler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server1.dir/request_handler.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/kelvin/Documents/asiowebserver/server-1/request_handler.cpp > CMakeFiles/server1.dir/request_handler.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelvin/Documents/asiowebserver/server-1/request_handler.cpp > CMakeFiles/server1.dir/request_handler.cpp.i
 
 CMakeFiles/server1.dir/request_handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server1.dir/request_handler.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/kelvin/Documents/asiowebserver/server-1/request_handler.cpp -o CMakeFiles/server1.dir/request_handler.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelvin/Documents/asiowebserver/server-1/request_handler.cpp -o CMakeFiles/server1.dir/request_handler.cpp.s
 
 CMakeFiles/server1.dir/request_parser.cpp.o: CMakeFiles/server1.dir/flags.make
-CMakeFiles/server1.dir/request_parser.cpp.o: /users/kelvin/Documents/asiowebserver/server-1/request_parser.cpp
+CMakeFiles/server1.dir/request_parser.cpp.o: /Users/kelvin/Documents/asiowebserver/server-1/request_parser.cpp
 CMakeFiles/server1.dir/request_parser.cpp.o: CMakeFiles/server1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/users/kelvin/Documents/asiowebserver/server-1/server1exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/server1.dir/request_parser.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server1.dir/request_parser.cpp.o -MF CMakeFiles/server1.dir/request_parser.cpp.o.d -o CMakeFiles/server1.dir/request_parser.cpp.o -c /users/kelvin/Documents/asiowebserver/server-1/request_parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kelvin/Documents/asiowebserver/server-1/server1exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/server1.dir/request_parser.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server1.dir/request_parser.cpp.o -MF CMakeFiles/server1.dir/request_parser.cpp.o.d -o CMakeFiles/server1.dir/request_parser.cpp.o -c /Users/kelvin/Documents/asiowebserver/server-1/request_parser.cpp
 
 CMakeFiles/server1.dir/request_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server1.dir/request_parser.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/kelvin/Documents/asiowebserver/server-1/request_parser.cpp > CMakeFiles/server1.dir/request_parser.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelvin/Documents/asiowebserver/server-1/request_parser.cpp > CMakeFiles/server1.dir/request_parser.cpp.i
 
 CMakeFiles/server1.dir/request_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server1.dir/request_parser.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/kelvin/Documents/asiowebserver/server-1/request_parser.cpp -o CMakeFiles/server1.dir/request_parser.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelvin/Documents/asiowebserver/server-1/request_parser.cpp -o CMakeFiles/server1.dir/request_parser.cpp.s
 
 CMakeFiles/server1.dir/reply.cpp.o: CMakeFiles/server1.dir/flags.make
-CMakeFiles/server1.dir/reply.cpp.o: /users/kelvin/Documents/asiowebserver/server-1/reply.cpp
+CMakeFiles/server1.dir/reply.cpp.o: /Users/kelvin/Documents/asiowebserver/server-1/reply.cpp
 CMakeFiles/server1.dir/reply.cpp.o: CMakeFiles/server1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/users/kelvin/Documents/asiowebserver/server-1/server1exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/server1.dir/reply.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server1.dir/reply.cpp.o -MF CMakeFiles/server1.dir/reply.cpp.o.d -o CMakeFiles/server1.dir/reply.cpp.o -c /users/kelvin/Documents/asiowebserver/server-1/reply.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kelvin/Documents/asiowebserver/server-1/server1exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/server1.dir/reply.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server1.dir/reply.cpp.o -MF CMakeFiles/server1.dir/reply.cpp.o.d -o CMakeFiles/server1.dir/reply.cpp.o -c /Users/kelvin/Documents/asiowebserver/server-1/reply.cpp
 
 CMakeFiles/server1.dir/reply.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server1.dir/reply.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/kelvin/Documents/asiowebserver/server-1/reply.cpp > CMakeFiles/server1.dir/reply.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelvin/Documents/asiowebserver/server-1/reply.cpp > CMakeFiles/server1.dir/reply.cpp.i
 
 CMakeFiles/server1.dir/reply.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server1.dir/reply.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/kelvin/Documents/asiowebserver/server-1/reply.cpp -o CMakeFiles/server1.dir/reply.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelvin/Documents/asiowebserver/server-1/reply.cpp -o CMakeFiles/server1.dir/reply.cpp.s
 
 CMakeFiles/server1.dir/mime_types.cpp.o: CMakeFiles/server1.dir/flags.make
-CMakeFiles/server1.dir/mime_types.cpp.o: /users/kelvin/Documents/asiowebserver/server-1/mime_types.cpp
+CMakeFiles/server1.dir/mime_types.cpp.o: /Users/kelvin/Documents/asiowebserver/server-1/mime_types.cpp
 CMakeFiles/server1.dir/mime_types.cpp.o: CMakeFiles/server1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/users/kelvin/Documents/asiowebserver/server-1/server1exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/server1.dir/mime_types.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server1.dir/mime_types.cpp.o -MF CMakeFiles/server1.dir/mime_types.cpp.o.d -o CMakeFiles/server1.dir/mime_types.cpp.o -c /users/kelvin/Documents/asiowebserver/server-1/mime_types.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kelvin/Documents/asiowebserver/server-1/server1exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/server1.dir/mime_types.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server1.dir/mime_types.cpp.o -MF CMakeFiles/server1.dir/mime_types.cpp.o.d -o CMakeFiles/server1.dir/mime_types.cpp.o -c /Users/kelvin/Documents/asiowebserver/server-1/mime_types.cpp
 
 CMakeFiles/server1.dir/mime_types.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server1.dir/mime_types.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/kelvin/Documents/asiowebserver/server-1/mime_types.cpp > CMakeFiles/server1.dir/mime_types.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelvin/Documents/asiowebserver/server-1/mime_types.cpp > CMakeFiles/server1.dir/mime_types.cpp.i
 
 CMakeFiles/server1.dir/mime_types.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server1.dir/mime_types.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/kelvin/Documents/asiowebserver/server-1/mime_types.cpp -o CMakeFiles/server1.dir/mime_types.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelvin/Documents/asiowebserver/server-1/mime_types.cpp -o CMakeFiles/server1.dir/mime_types.cpp.s
 
 # Object files for target server1
 server1_OBJECTS = \
@@ -210,7 +210,7 @@ server1: /opt/homebrew/Cellar/mongo-cxx-driver/3.10.1/lib/libmongocxx.dylib
 server1: /opt/homebrew/Cellar/mongo-cxx-driver/3.10.1/lib/libbsoncxx.dylib
 server1: /opt/homebrew/lib/libboost_container-mt.dylib
 server1: CMakeFiles/server1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/users/kelvin/Documents/asiowebserver/server-1/server1exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable server1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kelvin/Documents/asiowebserver/server-1/server1exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable server1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/server1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -222,6 +222,6 @@ CMakeFiles/server1.dir/clean:
 .PHONY : CMakeFiles/server1.dir/clean
 
 CMakeFiles/server1.dir/depend:
-	cd /users/kelvin/Documents/asiowebserver/server-1/server1exec && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /users/kelvin/Documents/asiowebserver/server-1 /users/kelvin/Documents/asiowebserver/server-1 /users/kelvin/Documents/asiowebserver/server-1/server1exec /users/kelvin/Documents/asiowebserver/server-1/server1exec /users/kelvin/Documents/asiowebserver/server-1/server1exec/CMakeFiles/server1.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kelvin/Documents/asiowebserver/server-1/server1exec && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kelvin/Documents/asiowebserver/server-1 /Users/kelvin/Documents/asiowebserver/server-1 /Users/kelvin/Documents/asiowebserver/server-1/server1exec /Users/kelvin/Documents/asiowebserver/server-1/server1exec /Users/kelvin/Documents/asiowebserver/server-1/server1exec/CMakeFiles/server1.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/server1.dir/depend
 
