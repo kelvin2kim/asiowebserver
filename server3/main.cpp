@@ -25,9 +25,12 @@
 #include <boost/asio/ip/tcp.hpp>
 
 #include <pqxx/pqxx>
+#include <boost/json.hpp>
 
 using client_type = async_mqtt5::mqtt_client<boost::asio::ip::tcp::socket>;
 client_type* pmqtt;
+
+namespace json = boost::json;
 
 constexpr auto use_nothrow_awaitable = boost::asio::as_tuple(boost::asio::use_awaitable);
 
@@ -87,7 +90,36 @@ boost::asio::awaitable<void> subscribe_and_receive(client_type& client) {
 		} else if (ec)
 			break;
 
+    //std::cout << "test" << std::endl;
 
+    try {
+            // Parse the JSON payload
+            json::value jv = json::parse(payload);
+            json::object jo = jv.as_object();
+            std::string up_time = json::value_to<std::string>(jo["up_time"]);
+            std::string username = json::value_to<std::string>(jo["username"]);
+            std::string location = json::value_to<std::string>(jo["location"]);
+
+            // Connect to PostgreSQL and insert the data
+            pqxx::connection C("dbname=postgres user=postgres.zynowokrcwkfqaiaijqr password=!Sunghoon0101 host=aws-0-us-east-1.pooler.supabase.com port=5432");
+            if (C.is_open()) {
+                std::cout << "Opened database successfully: " << C.dbname() << std::endl;
+
+                pqxx::work W(C);
+                std::string sql = "INSERT INTO volunteer (up_time, username, location) VALUES ("
+                                  + W.quote(up_time) + ", "
+                                  + W.quote(username) + ", "
+                                  + "POINT(" + W.quote(location) + ")"
+                                  + ");";
+                W.exec(sql);
+                W.commit();
+                std::cout << "Volunteer entry created successfully" << std::endl;
+            } else {
+                std::cout << "Can't open database" << std::endl;
+            }
+        } catch (const std::exception &e) {
+            std::cerr << "Exception: " << e.what() << std::endl;
+        }
     
     /*
       mongocxx::v_noabi::instance inst{};
@@ -134,12 +166,8 @@ int main(int argc, char* argv[])
     std::size_t num_threads = std::stoi(argv[3]);
     http::server3::server s(argv[1], argv[2], argv[4], num_threads);
 
-    pqxx::connection C("dbname=postgres user=postgres password=tjdgns01 hostaddr=127.0.0.1 port=5932");
-    if (C.is_open()) {
-      std::cout << "Opened database successfully: " << C.dbname() << std::endl;
-    } else {
-      std::cout << "Can't open database" << std::endl;
-    }
+
+    
 
      boost::asio::io_context iocMqtt;
 
@@ -148,8 +176,8 @@ int main(int argc, char* argv[])
 
         pmqtt = &c;
 
-        c.credentials("client-id", "servercpp", "server12345")
-        .brokers("c1fe1ad1.ala.us-east-1.emqxsl.com", 8883)
+         c.credentials("client-id", "servercpp", "server12345")
+        .brokers("127.0.0.1", 1883)
         .async_run(boost::asio::detached);
 
         co_spawn(iocMqtt, subscribe_and_receive(c), boost::asio::detached);
