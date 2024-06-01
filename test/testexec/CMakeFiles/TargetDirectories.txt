@@ -1,0 +1,3 @@
+/Users/kelvin/Documents/asiowebserver/test/testexec/CMakeFiles/test.dir
+/Users/kelvin/Documents/asiowebserver/test/testexec/CMakeFiles/edit_cache.dir
+/Users/kelvin/Documents/asiowebserver/test/testexec/CMakeFiles/rebuild_cache.dir

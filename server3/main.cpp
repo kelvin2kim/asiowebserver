@@ -34,6 +34,8 @@ namespace json = boost::json;
 
 constexpr auto use_nothrow_awaitable = boost::asio::as_tuple(boost::asio::use_awaitable);
 
+pqxx::connection* db_connection;
+
 boost::asio::awaitable<bool> subscribe(client_type& client) {
 	// Configure the request to subscribe to a Topic.
 	async_mqtt5::subscribe_topic sub_topic = async_mqtt5::subscribe_topic{
@@ -101,16 +103,15 @@ boost::asio::awaitable<void> subscribe_and_receive(client_type& client) {
             std::string location = json::value_to<std::string>(jo["location"]);
 
             // Connect to PostgreSQL and insert the data
-            pqxx::connection C("dbname=postgres user=postgres.zynowokrcwkfqaiaijqr password=!Sunghoon0101 host=aws-0-us-east-1.pooler.supabase.com port=5432");
-            if (C.is_open()) {
-                std::cout << "Opened database successfully: " << C.dbname() << std::endl;
-
-                pqxx::work W(C);
-                std::string sql = "INSERT INTO volunteer (up_time, username, location) VALUES ("
-                                  + W.quote(up_time) + ", "
+            if (db_connection->is_open()) {
+                pqxx::work W(*db_connection);
+                 std::string sql = "INSERT INTO volunteer (username, up_time, location) VALUES ("
                                   + W.quote(username) + ", "
+                                  + W.quote(up_time) + ", "
                                   + "POINT(" + W.quote(location) + ")"
-                                  + ");";
+                                  + ") ON CONFLICT (username) DO UPDATE SET "
+                                  + "up_time = EXCLUDED.up_time, "
+                                  + "location = EXCLUDED.location;";
                 W.exec(sql);
                 W.commit();
                 std::cout << "Volunteer entry created successfully" << std::endl;
@@ -162,6 +163,15 @@ int main(int argc, char* argv[])
       return 1;
     }
 
+     db_connection = new pqxx::connection("dbname=postgres user=postgres.zynowokrcwkfqaiaijqr password=!Sunghoon0101 host=aws-0-us-east-1.pooler.supabase.com port=5432");
+        if (!db_connection->is_open()) {
+            std::cerr << "Can't open database" << std::endl;
+            return 1;
+        }
+        else {
+            std::cout << "Opened database successfully" << std::endl;
+        }
+
     // Initialise the server.
     std::size_t num_threads = std::stoi(argv[3]);
     http::server3::server s(argv[1], argv[2], argv[4], num_threads);
@@ -196,6 +206,12 @@ int main(int argc, char* argv[])
   {
     std::cerr << "exception: " << e.what() << "\n";
   }
+
+  //Clean up the global database connection
+    if (db_connection) {
+        delete db_connection;
+    }
+
 
   return 0;
 }
